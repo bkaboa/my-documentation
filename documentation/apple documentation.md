@@ -7,13 +7,13 @@
 cc -dM -E -x c /dev/null
 ```
 
-|Option|Description|
-|---|---|
-|`cc`|The C compiler command. On many systems, this is a symbolic link to the actual compiler (like `gcc` or `clang`).|
-|`-dM`|This option tells the compiler to output all predefined macros. It is typically used with `-E` to stop after the preprocessing stage.|
-|`-E`|This option stops the compilation process after the preprocessing stage. This means the compiler will process the source code up to the point where macros are expanded but won't proceed to actual compilation.|
-|`-x c`|This option specifies the language of the input file. In this case, `-x c` tells the compiler that the input file is a C source code.|
-|`/dev/null`|This is a special file in Unix-like systems that discards all data written to it. It's often used to provide an empty input file.|
+| Option      | Description                                                                                                                                                                                                      |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `cc`        | The C compiler command. On many systems, this is a symbolic link to the actual compiler (like `gcc` or `clang`).                                                                                                 |
+| `-dM`       | This option tells the compiler to output all predefined macros. It is typically used with `-E` to stop after the preprocessing stage.                                                                            |
+| `-E`        | This option stops the compilation process after the preprocessing stage. This means the compiler will process the source code up to the point where macros are expanded but won't proceed to actual compilation. |
+| `-x c`      | This option specifies the language of the input file. In this case, `-x c` tells the compiler that the input file is a C source code.                                                                            |
+| `/dev/null` | This is a special file in Unix-like systems that discards all data written to it. It's often used to provide an empty input file.                                                                                |
 ## apple predefined macro list
 ```c
 #define TARGET_IPHONE_SIMULATOR 0

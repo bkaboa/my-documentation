@@ -79,12 +79,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "operation.md",
+                "file": "apple documentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "operation"
+              "title": "apple documentation"
             }
           },
           {
@@ -93,16 +93,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C;C++ documentation.md",
+                "file": "linux documentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C;C++ documentation"
+              "title": "linux documentation"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -250,16 +250,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71a5a9bf8b00161e",
+  "active": "1d1ba651fa1ac258",
   "lastOpenFiles": [
+    "apple documentation.md",
+    "linux documentation.md",
+    "general documentation.md",
+    "C;C++ documentation.md",
     "Pasted image 20250923001815.png",
     "Pasted image 20250923001452.png",
     "Pasted image 20250923001121.png",
     "operation.md",
-    "general documentation.md",
-    "apple documentation.md",
-    "C;C++ documentation.md",
-    "linux documentation.md",
     "flutter documentation.md",
     "2025-09-19.md",
     "Untitled.canvas",
